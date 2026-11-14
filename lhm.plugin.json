@@ -1,0 +1,161 @@
+{
+  "identifier": "applysent",
+  "name": "ApplySent",
+  "version": "1.1.0",
+  "description": "Search jobs that fit your résumé, preview each tailored application and apply on the employer's own form (Workday, Greenhouse, Lever, Ashby and more), with a receipt of what was sent. Every application needs your approval; there is no bulk auto-apply over MCP. Remote server with OAuth sign-in.",
+  "author": "ApplySent",
+  "authorUrl": "https://applysent.com",
+  "homepage": "https://applysent.com",
+  "icon": "https://applysent.com/apple-icon.png",
+  "cloudEndpoint": "https://applysent.com/api/mcp",
+  "tags": [
+    "jobs",
+    "job-search",
+    "job-applications",
+    "ats",
+    "resume",
+    "career"
+  ],
+  "tools": [
+    {
+      "name": "search_jobs",
+      "description": "Search jobs that match the user's résumé and filters, best match first."
+    },
+    {
+      "name": "search",
+      "description": "Search jobs (citation format)."
+    },
+    {
+      "name": "fetch",
+      "description": "Read a job (citation format)."
+    },
+    {
+      "name": "get_job",
+      "description": "Read a job."
+    },
+    {
+      "name": "get_jobs",
+      "description": "Read several jobs."
+    },
+    {
+      "name": "get_job_from_link",
+      "description": "Read a job from its posting link."
+    },
+    {
+      "name": "list_saved_jobs",
+      "description": "List saved jobs."
+    },
+    {
+      "name": "set_job_saved",
+      "description": "Save or unsave a job."
+    },
+    {
+      "name": "set_job_feedback",
+      "description": "Skip or restore a job."
+    },
+    {
+      "name": "list_blocked_companies",
+      "description": "List hidden companies."
+    },
+    {
+      "name": "set_company_blocked",
+      "description": "Hide or restore a company."
+    },
+    {
+      "name": "preview_tailored_resume",
+      "description": "Preview the résumé tailored for a job."
+    },
+    {
+      "name": "approve_tailored_resume",
+      "description": "Approve a tailored résumé."
+    },
+    {
+      "name": "regenerate_tailored_resume",
+      "description": "Regenerate a tailored résumé."
+    },
+    {
+      "name": "preview_application",
+      "description": "Show what applying to one job would send; sends nothing; returns a single-use confirmation token."
+    },
+    {
+      "name": "apply_to_job",
+      "description": "Send one application, only after the user said yes to its preview; needs the confirmation token."
+    },
+    {
+      "name": "queue_application_for_review",
+      "description": "Prepare an application for review in ApplySent; sends nothing."
+    },
+    {
+      "name": "cancel_application",
+      "description": "Stop an application before sending starts."
+    },
+    {
+      "name": "answer_question",
+      "description": "Answer an employer question only the user can answer."
+    },
+    {
+      "name": "list_pending_questions",
+      "description": "List open employer questions."
+    },
+    {
+      "name": "list_applications",
+      "description": "List applications with status and receipts."
+    },
+    {
+      "name": "get_application",
+      "description": "Read an application."
+    },
+    {
+      "name": "get_application_board",
+      "description": "Read the application board."
+    },
+    {
+      "name": "get_application_review",
+      "description": "Read an application review."
+    },
+    {
+      "name": "get_application_receipt",
+      "description": "Show what was sent for an application."
+    },
+    {
+      "name": "get_metrics",
+      "description": "Read application metrics."
+    },
+    {
+      "name": "list_inbox",
+      "description": "List employer emails."
+    },
+    {
+      "name": "get_message",
+      "description": "Read an employer email."
+    },
+    {
+      "name": "get_thread",
+      "description": "Read an email conversation."
+    },
+    {
+      "name": "list_notifications",
+      "description": "List notifications."
+    },
+    {
+      "name": "mark_notification_opened",
+      "description": "Mark a notification opened."
+    },
+    {
+      "name": "get_notification_settings",
+      "description": "Read notification settings."
+    },
+    {
+      "name": "update_notification_settings",
+      "description": "Change notification settings."
+    },
+    {
+      "name": "get_account",
+      "description": "Read plan and usage."
+    },
+    {
+      "name": "get_profile_status",
+      "description": "Check whether the profile is ready to apply."
+    }
+  ]
+}
