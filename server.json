@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.applysent/applysent",
+  "title": "Applysent",
+  "description": "Search jobs, preview each application and apply with your OK on Workday, Greenhouse, Ashby and more.",
+  "version": "1.1.0",
+  "websiteUrl": "https://applysent.com",
+  "repository": {
+    "url": "https://github.com/applysent/applysent-mcp",
+    "source": "github"
+  },
+  "icons": [
+    { "src": "https://applysent.com/apple-icon.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://applysent.com/api/mcp" }
+  ]
+}
