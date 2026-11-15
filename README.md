@@ -58,6 +58,13 @@ On first use your client opens an ApplySent sign-in page. You need an ApplySent 
 
 Every tool carries a title and read-only/destructive annotations. ApplySent applies on the employer's own form on [12 hiring systems](https://applysent.com/supported-ats) (Workday, Greenhouse, Lever, Ashby and more), not through LinkedIn Easy Apply or Indeed.
 
+## Compare / Supported systems
+
+- How ApplySent handles a Workday application, including the employer account Workday asks for: [auto-apply on Workday](https://applysent.com/auto-apply/workday).
+- What it fills on a Greenhouse form and what counts as a receipt there: [auto-apply on Greenhouse](https://applysent.com/auto-apply/greenhouse).
+- Choosing between job-application agents: [Tsenta alternatives](https://applysent.com/alternatives/tsenta-alternatives) and [Jobbie alternatives](https://applysent.com/alternatives/jobbie-alternatives), each with a cited side-by-side comparison.
+- Plans and weekly application limits: [ApplySent pricing](https://applysent.com/pricing).
+
 ## Privacy and support
 
 - Privacy policy: [applysent.com/privacy](https://applysent.com/privacy)
